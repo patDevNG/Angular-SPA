@@ -1,0 +1,58 @@
+<header class="main-header">
+  <div class="navbar-fixed">
+    <nav class ="transparent ">
+      <div class="nav-wrapper">
+        <a href="#" class ="brand-logo">myLogo</a>
+        <a href="#" data-activates="small-screen" class="right show-on-medium-and-down button-collapse"> <i class="material-icons">menu</i></a>
+        <ul class = "right hide-on-med-and-down">
+          <li> <a routerLink="">Home</a></li>
+          <li> <a routerLink ="/aboutus">About Us</a></li>
+          <li> <a routerLink="/organization">Organization</a></li>
+          <li> <a routerLink="/members">Memebers</a></li>
+        
+          <li> <a  routerLink="/blog" >
+            Blog</a></li>
+          <li> <a  routerLink="/event">Event</a></li>
+          <li> <a  routerLink="/contactus">Contact us</a></li>
+
+
+        </ul>
+        <!--side Nav for small screen-->
+        <!-- <ul class="sidenav small-screen">
+            <li> <a >Home</a></li>
+            <li> <a href="#">About Us</a></li>
+            <li> <a href="#">Organization</a></li>
+            <li> <a href="#">Memebers</a></li>
+            <li> <a href="#">Blog</a></li>
+            <li> <a href="#">Event</a></li>
+            <li> <a href="#">Contact us</a></li>
+        </ul> -->
+      </div>
+    </nav>
+  </div>
+  <!--Section Main Page Introduction-->
+  <section class="section section-showcase">
+    <div class="my-container">
+      <div class="row">
+       <div class="col m7">
+         <div class="my-container">
+           <img src="../../assets/images/undraw_before_dawn_bqrj.svg" class="responsive-img" alt="" srcset="">
+         </div>
+       </div>
+       <div class="col m5 white-text header-text">
+         <h5>{{posts.title}}</h5>
+         <p >
+           {{posts.body}}
+         </p>
+         <div class="pt-1">
+            <a   class="btn  green mr-2 rounded bd black-text lower">Lorem</a>
+            <button class="btn yellow rounded bd black-text lower mr-2">Lorem ipsum</button>
+         </div>
+         
+   
+       </div>
+      </div>
+    </div>
+  </section>
+  
+</header>

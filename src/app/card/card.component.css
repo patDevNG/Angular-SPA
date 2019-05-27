@@ -1,0 +1,136 @@
+header{
+  min-height: 70vh;
+  background-color: #385b92;
+  position: relative;
+  z-index: 1;
+}
+
+.my-container{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.header-text{
+  font-family: 'sans-serif'
+}
+.mr-2{
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.bd{
+  border-radius: 0.50rem!important
+
+}
+.lower{
+  text-transform: capitalize!important
+
+}
+.pt-1{
+  padding-top:1rem
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.card-content{
+  min-height: 30vh;
+}
+.lorem-card{
+  position: relative;
+  elative:;
+  margin-top: -2.0rem;
+  z-index: 3;
+}
+.comment-card{
+  position: relative;
+  z-index: -1;
+}
+
+.our-grey{
+  background-color: #ECF0F1 !important;
+}
+
+.our-green{
+  background-color: rgba(10, 150, 115, 0.726) !important;
+}
+.mr-5{
+    margin-right:6rem;
+    margin-bottom: 2rem;
+    
+}
+.pr-3{
+    padding-left:6rem;
+}
+.middle-text{
+    padding-top: 4rem;
+    padding-left:13rem;
+    padding-right: 10rem
+}
+.card-fixed-button{
+  position: relative;
+}
+
+.floating {
+  position: absolute!important;
+  bottom: 8%;
+  right: 5%;
+}
+.card-img{
+  padding: left 2rem;
+    padding-right: 13.5rem;
+  padding-top: 1rem;
+
+}
+.flags{
+  min-height: 35vh;
+
+}
+
+.flag-card{
+  position: relative;
+  margin-bottom: -2.5rem;
+  z-index: 1;
+  padding-left: 13rem;
+  padding-right:13rem;
+}
+.flag-container{
+  max-width: 80px;
+  max-height: 70px;
+}
+.comment-card{
+    min-height: 35vh;
+}
+.our-blue{
+    background: #385b92
+}
+.pl-1{
+    padding-left:20rem;
+    padding-top:7rem;
+    padding-right:20rem
+}
+.our-yellow{
+    background: #f1c40f;
+}
+.footer-p{
+    padding-top: 10rem
+}
+.pl-3{
+  margin-left: 3rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+/* .my-lorem{
+    padding-right: 20%;
+    padding-left: 20%;
+
+} */
+
+/* Our Blue  = #385B92
+
+Our Yellow = #F1C40F
+
+Our Greywhite = #ECF0F1 */
